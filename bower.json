@@ -1,9 +1,9 @@
 {
-  "name": "wildly-minimalistic",
+  "name": "martiniclaro",
   "version": "0.0.0",
   "dependencies": {
     "highlightjs": "~7.3.0",
     "highlightjs-scss": "~7.3.0",
-    "normalize-scss": "~2.1.2"
+    "sass-bootstrap": "~3.0.2"
   }
 }

@@ -1,22 +1,12 @@
 /*!!
-Theme Name: Wildly Minimalistic
-Theme URI: http://www.wildlyinaccurate.com
-Description: Super-minimalistic theme for the Wildly Inaccurate blog
-Author: Joseph Wynn
-Author URI: http://www.wildlyinaccurate.com
+Theme Name: Martini Claro
+Theme URI: http://www.martiniclaro.com.br
+Description: Martini Claro custom theme
+Author: Thiago Miranda
+Author URI: http://www.theprogramer.com.br
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.0
 */
 
-@import "../../bower_components/normalize-scss/normalize";
-
-@import "variables";
-@import "partials/layout";
-@import "partials/typography";
-@import "partials/sidebar";
-@import "partials/navigation";
-@import "partials/post";
-@import "partials/media";
-@import "partials/code";
-@import "partials/utils";
+@import "../../bower_components/sass-bootstrap/lib/bootstrap";
