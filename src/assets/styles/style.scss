@@ -9,4 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.0
 */
 
+@import "../../bower_components/normalize-scss/normalize";
 @import "../../bower_components/sass-bootstrap/lib/bootstrap";
+
+.container {
+	width: 750px;
+}

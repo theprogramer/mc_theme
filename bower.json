@@ -4,6 +4,7 @@
   "dependencies": {
     "highlightjs": "~7.3.0",
     "highlightjs-scss": "~7.3.0",
-    "sass-bootstrap": "~3.0.2"
+    "sass-bootstrap": "~3.0.2",
+    "normalize-scss": "~2.1.3"
   }
 }

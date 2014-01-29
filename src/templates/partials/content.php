@@ -6,16 +6,16 @@
  * @since wildly-minimalistic 2.5
  */
 ?>
+<div class="col-xs-12">
+	<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+		<h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
 
-<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+		<div class="entry">
+		    <?php the_content(); ?>
+		</div>
 
-    <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+		<?php get_template_part('templates/partials/inc', 'meta'); ?>
+		<?php get_template_part('templates/partials/inc', 'comments-link'); ?>
 
-    <div class="entry">
-        <?php the_content(); ?>
-    </div>
-
-    <?php get_template_part('templates/partials/inc', 'meta'); ?>
-    <?php get_template_part('templates/partials/inc', 'comments-link'); ?>
-
-</article>
+	</article>
+</div>
