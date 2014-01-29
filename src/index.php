@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 <div class="container">
+	<div id="slider" class="row">
+		<div class="col-sm-12"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<nav id="main-nav" class="nav nav-tabs">
+				<?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+			</nav>
+		</div>
+	</div>
 	<div class="row">
 		<section id="main" role="main">
 

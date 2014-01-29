@@ -12,6 +12,17 @@ Version: 1.0
 @import "../../bower_components/normalize-scss/normalize";
 @import "../../bower_components/sass-bootstrap/lib/bootstrap";
 
+$green-default: #263216;
+$shadow-color: rgba(25,25,25,0.6);
+
 .container {
 	width: 750px;
+}
+
+.solid {
+	background-color: $green-default;
+}
+
+.shadow {
+	background-color: $shadow-color;
 }

@@ -9,11 +9,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header id="header">
-        <a id="logo" href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a>
-        <div class="description"><?php bloginfo('description'); ?></div>
-    </header>
-
-    <nav id="main-nav">
-        <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
-    </nav>
+	<div class="container">
+		<header id="header">
+		    <div class="row">
+				<div class="col-sm-6 solid">
+					<a href="<?php echo home_url('/'); ?>">
+						<h1>Martini Claro</h1>
+						<h3>Advogados Associados</h3>
+						<hr>
+						<p>Advocacia empresarial & Internacional</p>
+					</a>
+				</div>
+				<div class="col-sm-6 shadow">
+				</div>
+			</div>
+		</header>
+	</div>

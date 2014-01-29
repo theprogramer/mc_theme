@@ -2,9 +2,17 @@
             <?php get_sidebar(); ?>
         </div> <!-- /#sidebar -->
 
-        <footer id="footer">
-            <?php dynamic_sidebar('Footer'); ?>
-        </footer> <!-- /#footer -->
+		<div class="container">
+			<footer id="footer">
+				<div class="row">
+					<div class="col-sm-6 shadow">
+						<?php //dynamic_sidebar('Footer'); ?>
+					</div>
+					<div class="col-sm-6 solid">
+					</div>
+				</div>
+			</footer>
+		</div>
 
         <?php wp_footer(); ?>
 
