@@ -12,17 +12,45 @@ Version: 1.0
 @import "../../bower_components/normalize-scss/normalize";
 @import "../../bower_components/sass-bootstrap/lib/bootstrap";
 
-$green-default: #263216;
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+
+$default-green: #263216;
+$light-green: #687558;
 $shadow-color: rgba(25,25,25,0.6);
+$white: #FFFFFF;
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
 
 .container {
 	width: 750px;
 }
 
 .solid {
-	background-color: $green-default;
+	background-color: $default-green;
 }
 
 .shadow {
 	background-color: $shadow-color;
+}
+
+.light-green {
+	background: $light-green;
+}
+
+#menu-side-menu {
+	list-style: none;
+	margin: 35px 0;
+	a {
+		color: $white;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	li {
+		margin: 5px 0;
+	}
 }

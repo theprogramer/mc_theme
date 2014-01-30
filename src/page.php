@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-3">
+		<div class="col-sm-3 light-green">
+			<div id="sidebar">
 		        <?php get_sidebar(); ?>
+			</div>
 		</div>
 		<div class="col-sm-9">
 			<section id="main" role="main">
