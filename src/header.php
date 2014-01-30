@@ -14,10 +14,7 @@
 		    <div class="row">
 				<div class="col-sm-6 solid">
 					<a href="<?php echo home_url('/'); ?>">
-						<h1>Martini Claro</h1>
-						<h3>Advogados Associados</h3>
-						<hr>
-						<p>Advocacia empresarial & Internacional</p>
+						<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
 					</a>
 				</div>
 				<div class="col-sm-6 shadow">
