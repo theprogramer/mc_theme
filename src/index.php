@@ -16,10 +16,11 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<?php get_template_part('templates/partials/content', get_post_format()); ?>
+<h1>--------</h1>
 
 			<?php endwhile; ?>
 
-				<?php get_template_part('templates/partials/inc', 'nav'); ?>
+				<?php //get_template_part('templates/partials/inc', 'nav'); ?>
 
 			<?php else : ?>
 

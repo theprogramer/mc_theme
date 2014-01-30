@@ -6,7 +6,7 @@
  * @since wildly-minimalistic 2.5
  */
 ?>
-
+<h1>Content-page</h1>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <h1><?php the_title(); ?></h1>

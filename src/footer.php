@@ -1,6 +1,7 @@
+		<?php /*
         <div id="sidebar">
-            <?php get_sidebar(); ?>
-        </div> <!-- /#sidebar -->
+            <?php //get_sidebar(); ?>
+        </div> */?> <!-- /#sidebar -->
 
 		<div class="container">
 			<footer id="footer">
