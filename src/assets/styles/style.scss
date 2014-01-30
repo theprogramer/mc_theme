@@ -9,6 +9,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.0
 */
 
+$font-family-sans-serif:  'PT Sans Narrow', sans-serif !default;
+$font-family-serif:       'PT Sans Narrow', sans-serif !default;
+
+
 @import "../../bower_components/normalize-scss/normalize";
 @import "../../bower_components/sass-bootstrap/lib/bootstrap";
 
@@ -45,6 +49,10 @@ body {
 	margin: 15px 35px 15px;
 }
 
+#flags {
+	height: 81px;
+}
+
 #menu-side-menu {
 	list-style: none;
 	margin: 35px 0;
@@ -56,5 +64,23 @@ body {
 	}
 	li {
 		margin: 5px 0;
+	}
+}
+
+#footer-sidebar {
+	h3 {
+		text-transform: uppercase;
+		font-size: 18px;
+		color: $white;
+	}
+	p {
+		color: $white;
+		font-size: 12px;
+	}
+	hr {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 0;
+		border-top: 5px solid $white;
 	}
 }

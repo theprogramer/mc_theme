@@ -17,7 +17,7 @@
 						<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
 					</a>
 				</div>
-				<div class="col-sm-6 shadow">
+				<div id="flags" class="col-sm-6 shadow">
 				</div>
 			</div>
 		</header>

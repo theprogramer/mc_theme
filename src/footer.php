@@ -1,13 +1,10 @@
-		<?php /*
-        <div id="sidebar">
-            <?php //get_sidebar(); ?>
-        </div> */?> <!-- /#sidebar -->
-
 		<div class="container">
 			<footer id="footer">
 				<div class="row">
 					<div class="col-sm-6 shadow">
-						<?php //dynamic_sidebar('Footer'); ?>
+						<div id="footer-sidebar">
+							<?php dynamic_sidebar('Footer'); ?>
+						</div>
 					</div>
 					<div class="col-sm-6 solid">
 					</div>
