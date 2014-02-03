@@ -6,25 +6,32 @@
  * @since wildly-minimalistic 2.5
  */
 ?>
-<h1>Single</h1>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <h1><?php the_title(); ?></h1>
 
-    <?php get_template_part('templates/partials/inc', 'comments-link'); ?>
+    <?php //get_template_part('templates/partials/inc', 'comments-link'); ?>
 
-    <div class="entry">
-        <?php the_content(); ?>
+	<div class="row">
 
-        <?php wp_link_pages(array(
-            'before' => 'Pages: ',
-            'next_or_number' => 'number',
-        )); ?>
+		<div class="entry col-sm-7">
+			<?php the_content(); ?>
 
-        <?php get_template_part('templates/partials/inc', 'meta'); ?>
-
-        <nav class="post-navigation">
-            <span class="navigation-next"><?php previous_post_link(); ?></span>
-            <span class="navigation-previous"><?php next_post_link(); ?></span>
-        </nav>
-    </div>
+			<?php //get_template_part('templates/partials/inc', 'meta'); ?>
+		</div>
+		<div class="col-sm-5">
+			<?php $custom_fields = get_post_custom();?>
+			<?php if (isset($custom_fields['Email'])) : ?>
+				<span>Email:</span>&nbsp;<a href="mailto://<?php echo $custom_fields['Email'][0]; ?>"><?php echo $custom_fields['Email'][0]; ?></a>
+			<?php endif; ?>
+			<br />
+			<?php if (isset($custom_fields['Telephone'])) : ?>
+				<span>Telephone:</span>&nbsp;<a href="tel:<?php echo $custom_fields['Telephone'][0]; ?>"><?php echo $custom_fields['Telephone'][0]; ?></a>
+			<?php endif; ?>
+			<br />
+			<?php if (isset($custom_fields['Fax'])) : ?>
+				<span>Fax:</span>&nbsp;<a href="tel:<?php echo $custom_fields['Fax'][0]; ?>"><?php echo $custom_fields['Fax'][0]; ?></p>
+			<?php endif; ?>
+			<br />
+		</div>
+	</div>
 </article>

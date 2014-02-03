@@ -5,7 +5,6 @@ Template Name: Operation Page
 ?>
 
 <?php get_header(); ?>
-<h1>Operation</h1>
 <div class="container">
     <section id="main" role="main" class="col-sm-12">
 

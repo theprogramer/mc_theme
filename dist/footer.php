@@ -6,7 +6,7 @@
 							<?php dynamic_sidebar('Footer'); ?>
 						</div>
 					</div>
-					<div class="col-sm-6 solid">
+					<div id="social" class="col-sm-6 solid">
 					</div>
 				</div>
 			</footer>

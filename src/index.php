@@ -3,10 +3,21 @@
 	<div id="slider" class="row">
 		<div class="col-sm-12"></div>
 	</div>
+	<h1>asdasd</h1>
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12 solid light-green">
 			<nav id="main-nav" class="nav nav-tabs">
-				<?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+				<?php wp_nav_menu( array(
+						'menu'              => 'primary',
+						'theme_location'    => 'primary',
+						'depth'             => 2,
+						'container'         => 'div',
+						'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
+						'menu_class'        => 'nav navbar-nav',
+						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+						'walker'            => new wp_bootstrap_navwalker())
+					);
+				?>
 			</nav>
 		</div>
 	</div>

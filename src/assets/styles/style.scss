@@ -9,8 +9,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.0
 */
 
+$default-green: #263216;
+$light-green: #687558;
+$shadow-color: rgba(25,25,25,0.6);
+$white: #FFFFFF;
+
+
 $font-family-sans-serif:  'PT Sans Narrow', sans-serif !default;
 $font-family-serif:       'PT Sans Narrow', sans-serif !default;
+
+// Links
+// -------------------------
+
+$link-color:            $default-green !default;
+$link-hover-color:      $light-green !default;
+
+
+// Forms
+// -------------------------
+
+$input-bg:                       $light-green !default;
+
+$input-color:                    $default-green !default;
+$input-border:                   $default-green !default;
+$input-border-focus:             $light-green !default;
+
+$input-color-placeholder:        $light-green !default;
 
 
 @import "../../bower_components/normalize-scss/normalize";
@@ -19,14 +43,13 @@ $font-family-serif:       'PT Sans Narrow', sans-serif !default;
 /* Google Fonts */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-
-$default-green: #263216;
-$light-green: #687558;
-$shadow-color: rgba(25,25,25,0.6);
-$white: #FFFFFF;
-
 body {
 	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+input {
+	border: 1px solid $light-green !important;
+	margin: 0 5px;
 }
 
 .container {
@@ -45,12 +68,60 @@ body {
 	background: $light-green;
 }
 
+.solid-white {
+	background: $white;
+	min-height: 350px;
+}
+
+.solid.light-green {
+	background: $light-green;
+}
+
+.nav-tabs {
+	border: none;
+}
+
+.nav {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	li {
+		display: inline;
+		text-align: center;
+		a {
+			color: $white;
+			&:hover {
+				background: $white;
+				color: $default-green;
+			}
+		}
+	}
+}
+
+.fwb_fromthis {
+	display: none;
+}
+
+.cml_append_flags {
+	float: right;
+	margin-top: 45px;
+}
+
 #logo {
 	margin: 15px 35px 15px;
 }
 
 #flags {
 	height: 81px;
+}
+
+#social {
+	height: 145px;
+}
+
+#main {
+	min-height: 300px;
 }
 
 #menu-side-menu {
@@ -84,3 +155,4 @@ body {
 		border-top: 5px solid $white;
 	}
 }
+

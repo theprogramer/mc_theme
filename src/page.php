@@ -6,7 +6,7 @@
 		        <?php get_sidebar(); ?>
 			</div>
 		</div>
-		<div class="col-sm-9">
+		<div class="col-sm-9 solid-white">
 			<section id="main" role="main">
 
 				<?php while (have_posts()) : the_post(); ?>
