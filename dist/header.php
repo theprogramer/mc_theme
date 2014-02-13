@@ -9,16 +9,18 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="container">
-		<header id="header">
-		    <div class="row">
-				<div class="col-sm-6 solid">
-					<a href="<?php echo home_url('/'); ?>">
-						<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
-					</a>
-				</div>
-				<div id="flags" class="col-sm-6 shadow">
-				</div>
-			</div>
-		</header>
-	</div>
+    <div class="wrapper shadow">
+	    <div class="container">
+		    <header id="header">
+		        <div class="row">
+				    <div class="col-sm-6 solid">
+					    <a href="<?php echo home_url('/'); ?>">
+						    <img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
+					    </a>
+				    </div>
+				    <div id="flags" class="col-sm-6">
+				    </div>
+			    </div>
+		    </header>
+	    </div>
+    </div>

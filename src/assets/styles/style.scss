@@ -77,6 +77,10 @@ input {
 	background: $light-green;
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .nav-tabs {
 	border: none;
 }
@@ -90,6 +94,7 @@ input {
 		display: inline;
 		text-align: center;
 		a {
+            padding: 5px 15px !important;
 			color: $white;
 			&:hover {
 				background: $white;
@@ -156,3 +161,18 @@ input {
 	}
 }
 
+#copyright-sidebar {
+    p {
+        color: $white;
+        margin: 5px 0;
+    }
+    hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+#slider {
+    margin: 200px 0 10px;
+    padding: 10px;
+}
