@@ -2,12 +2,17 @@
         <div class="container">
 			<footer id="footer">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-10 solid">
 						<div id="footer-sidebar">
 							<?php //dynamic_sidebar('Footer'); ?>
+							<?php 
+							    echo do_shortcode("[metaslider id=120]"); 
+							?>
 						</div>
 					</div>
-					<div id="social" class="col-sm-6 solid">
+					<div id="social" class="col-sm-2 solid">
+						<img id="facebook" src="<?php bloginfo('template_directory'); ?>//assets/images/facebook.png" />
+						<img id="linkedin" src="<?php bloginfo('template_directory'); ?>//assets/images/linkdin.png" />
 					</div>
 				</div>
 			</footer>

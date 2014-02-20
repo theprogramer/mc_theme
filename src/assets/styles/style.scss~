@@ -77,16 +77,8 @@ input {
 	background: $light-green;
 }
 
-.wrapper {
-    width: 100%;
-}
-
 .nav-tabs {
 	border: none;
-}
-
-.navbar-collapse {
-	padding-left: 0 !important;
 }
 
 .nav {
@@ -98,7 +90,6 @@ input {
 		display: inline;
 		text-align: center;
 		a {
-            padding: 5px 9px !important;
 			color: $white;
 			&:hover {
 				background: $white;
@@ -113,12 +104,8 @@ input {
 }
 
 .cml_append_flags {
-	float: left;
+	float: right;
 	margin-top: 45px;
-}
-
-.cml_flags {
-	padding: 0;
 }
 
 #logo {
@@ -131,12 +118,6 @@ input {
 
 #social {
 	height: 145px;
-	padding-top: 100px;
-	#linkedin,
-	#facebook {
-		float: right;
-		margin: 2px;
-	}
 }
 
 #main {
@@ -154,14 +135,6 @@ input {
 	}
 	li {
 		margin: 5px 0;
-	}
-}
-
-#subtitle {
-	color: $white;
-	text-align: right;
-	h3 {
-		margin-bottom: 0;
 	}
 }
 
@@ -183,18 +156,3 @@ input {
 	}
 }
 
-#copyright-sidebar {
-    p {
-        color: $white;
-        margin: 5px 0;
-    }
-    hr {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-#slider {
-    margin: 200px 0 10px;
-    padding: 10px;
-}

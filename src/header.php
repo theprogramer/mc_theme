@@ -18,7 +18,11 @@
 						    <img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
 					    </a>
 				    </div>
-				    <div id="flags" class="col-sm-6">
+				    <div id="flags" class="col-sm-3">
+				    </div>
+				    <div id="subtitle" class="col-sm-3">
+				    	<h3>50 ANOS</h3>
+				    	<p>Tradição & Sucesso!</p>
 				    </div>
 			    </div>
 		    </header>
