@@ -45,7 +45,7 @@ $input-color-placeholder:        $light-green !default;
 
 body {
 	font-family: 'PT Sans Narrow', sans-serif;
-	margin-top: 49px;
+	margin-top: 81px;
 }
 
 input {
@@ -99,6 +99,15 @@ input {
 	width: 100%;
 	top: 0;
 	left: 0;
+	z-index: 99999;
+}
+
+#left-menu {
+	position: fixed;
+	z-index: 99999;
+	top: initial;
+	left: initial;
+	width: 188px !important;
 }
 
 .nav-tabs {
@@ -222,6 +231,4 @@ input {
 #close {
 	margin: 0;
 	float: right;
-	position: fixed;
-	top: 35px;
 }

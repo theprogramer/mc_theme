@@ -33,9 +33,6 @@
 								<h3 class="text-center">52 YEARS</h3>
 								<p class="text-center">Tradition & Success!</p>
 							<?php endif; ?>
-							<a href="<?php echo home_url('/'); ?>">
-								<img id="close" src="<?php echo get_template_directory_uri(); ?>/assets/images/close.png" />
-					    	</a>
 					    </div>
 				    </div>
 			    </header>
