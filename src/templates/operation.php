@@ -5,15 +5,17 @@ Template Name: Operation Page
 ?>
 
 <?php get_header(); ?>
-<div class="container">
-    <section id="main" role="main" class="col-sm-12">
+<div class="content-wrapper" >
+	<div class="container">
+	    <section id="main" role="main" class="col-sm-12">
 
-        <?php while ( have_posts() ) : the_post(); ?>
+	        <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'templates/partials/content', 'page' ); ?>
+	            <?php get_template_part( 'templates/partials/content', 'page' ); ?>
 
-        <?php endwhile; ?>
+	        <?php endwhile; ?>
 
-    </section> <!-- /#main -->
+	    </section> <!-- /#main -->
+	</div>
 </div>
 <?php get_footer(); ?>

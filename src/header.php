@@ -9,22 +9,34 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div class="wrapper shadow">
-	    <div class="container">
-		    <header id="header">
-		        <div class="row">
-				    <div class="col-sm-6 solid">
-					    <a href="<?php echo home_url('/'); ?>">
-						    <img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
-					    </a>
+    	<div class="wrapper shadow">
+		    <div class="container">
+			    <header id="header">
+			        <div class="row">
+					    <div class="col-sm-6 solid">
+						    <a href="<?php echo home_url('/'); ?>">
+						    	<?php if ($_GET['lang']=='pt-BR') : ?>
+									<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
+								<?php else: ?>
+									<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_en.png" />
+								<?php endif; ?>	
+						    </a>
+					    </div>
+					    <div id="flags" class="col-sm-2">
+					    </div>
+					    <div id="subtitle" class="col-sm-4">
+					    	<?php if ($_GET['lang']=='pt-BR') : ?>
+								<h3 class="text-center">52 ANOS</h3>
+						    	<p class="text-center">Tradição & Sucesso!</p>
+							<?php else: ?>
+								<h3 class="text-center">52 YEARS</h3>
+								<p class="text-center">Tradition & Success!</p>
+							<?php endif; ?>
+							<a href="<?php echo home_url('/'); ?>">
+								<img id="close" src="<?php echo get_template_directory_uri(); ?>/assets/images/close.png" />
+					    	</a>
+					    </div>
 				    </div>
-				    <div id="flags" class="col-sm-3">
-				    </div>
-				    <div id="subtitle" class="col-sm-3">
-				    	<h3>50 ANOS</h3>
-				    	<p>Tradição & Sucesso!</p>
-				    </div>
-			    </div>
-		    </header>
-	    </div>
+			    </header>
+		    </div>
     </div>

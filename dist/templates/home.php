@@ -26,15 +26,17 @@ Template Name: Home Page
 	    </div>
     </div>
 </div>
-<div class="container">
-    <section id="main" role="main" class="col-sm-12">
+<div class="content-wrapper" >
+	<div class="container">
+	    <section id="main" role="main" class="col-sm-12">
 
-        <?php while ( have_posts() ) : the_post(); ?>
+	        <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php the_content(); ?>
-            <?php //get_template_part( 'templates/partials/content', 'page' ); ?>
+	            <?php the_content(); ?>
+	            <?php //get_template_part( 'templates/partials/content', 'page' ); ?>
 
-        <?php endwhile; ?>
-    </section> <!-- /#main -->
+	        <?php endwhile; ?>
+	    </section> <!-- /#main -->
+	</div>
 </div>
 <?php get_footer(); ?>

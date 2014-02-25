@@ -81,6 +81,25 @@ input {
     width: 100%;
 }
 
+.content-wrapper {
+	width: 100%;
+	min-height: 100%;
+}
+
+#wrapper-footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+#wrapper-header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
 .nav-tabs {
 	border: none;
 }
@@ -130,8 +149,8 @@ input {
 }
 
 #social {
-	height: 145px;
-	padding-top: 100px;
+	height: 93px;
+	padding-top: 50px;
 	#linkedin,
 	#facebook {
 		float: right;
@@ -140,7 +159,7 @@ input {
 }
 
 #main {
-	min-height: 300px;
+	min-height: 750px;
 }
 
 #menu-side-menu {
@@ -197,4 +216,11 @@ input {
 #slider {
     margin: 200px 0 10px;
     padding: 10px;
+}
+
+#close {
+	margin: 0;
+	float: right;
+	position: fixed;
+	top: 35px;
 }
