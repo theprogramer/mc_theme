@@ -9,6 +9,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<div id="wrapper-header">
     	<div class="wrapper shadow">
 		    <div class="container">
 			    <header id="header">
@@ -39,4 +40,5 @@
 				    </div>
 			    </header>
 		    </div>
+    	</div>
     </div>
