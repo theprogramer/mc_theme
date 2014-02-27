@@ -10,7 +10,7 @@
 				</div>
 			</div>
 			<div class="col-xs-9 solid-white">
-				<a href="<?php echo home_url('/'); ?>">
+				<a href="<?php echo home_url('/'); ?>?lang=<?php echo $_GET['lang']; ?>">
 					<img id="close" src="<?php echo get_template_directory_uri(); ?>/assets/images/close.png" />
 		    	</a>
 				<section id="main" role="main">
