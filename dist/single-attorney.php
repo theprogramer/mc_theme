@@ -2,12 +2,12 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-3 light-green">
+		<div class="col-xs-3 light-green">
 			<div id="sidebar">
 		        <?php get_sidebar(); ?>
 			</div>
 		</div>
-		<div class="col-sm-9 solid-white">
+		<div class="col-xs-9 solid-white">
     		<section id="main" role="main">
 				<?php while (have_posts()) : the_post(); ?>
 

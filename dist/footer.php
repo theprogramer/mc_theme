@@ -3,7 +3,7 @@
 	        <div class="container">
 				<footer id="footer">
 					<div class="row">
-						<div class="col-sm-10 solid">
+						<div class="col-xs-10 solid">
 							<div id="footer-sidebar">
 								<?php //dynamic_sidebar('Footer'); ?>
 								<?php 
@@ -11,7 +11,7 @@
 								?>
 							</div>
 						</div>
-						<div id="social" class="col-sm-2 solid">
+						<div id="social" class="col-xs-2 solid">
 							<img id="facebook" src="<?php bloginfo('template_directory'); ?>//assets/images/facebook.png" />
 							<img id="linkedin" src="<?php bloginfo('template_directory'); ?>//assets/images/linkdin.png" />
 						</div>
@@ -23,7 +23,7 @@
 	        <div class="container">
 				<footer id="copyright">
 					<div class="row">
-						<div class="col-sm-12">
+						<div class="col-xs-12">
 							<div id="copyright-sidebar">
 								<?php dynamic_sidebar('Footer'); ?>
 							</div>

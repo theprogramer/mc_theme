@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 <div class="container">
 	<div id="slider" class="row">
-		<div class="col-sm-12"></div>
+		<div class="col-xs-12"></div>
 	</div>
 	<h1>asdasd</h1>
 	<div class="row">
-		<div class="col-sm-12 solid light-green">
+		<div class="col-xs-12 solid light-green">
 			<nav id="main-nav" class="nav nav-tabs">
 				<?php wp_nav_menu( array(
 						'menu'              => 'primary',
@@ -35,7 +35,7 @@
 
 			<?php else : ?>
 
-				<article class="col-sm-12">
+				<article class="col-xs-12">
 				    <h1>Not Found</h1>
 				</article>
 

@@ -7,7 +7,7 @@ Template Name: Operation Page
 <?php get_header(); ?>
 <div class="content-wrapper" >
 	<div class="container">
-	    <section id="main" role="main" class="col-sm-12">
+	    <section id="main" role="main" class="col-xs-12">
 
 	        <?php while ( have_posts() ) : the_post(); ?>
 

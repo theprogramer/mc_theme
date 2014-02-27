@@ -8,7 +8,7 @@ Template Name: Home Page
 <div class="wrapper solid light-green">
     <div class="container">
 	    <div class="row">
-		    <div class="col-sm-12 solid light-green">
+		    <div class="col-xs-12 solid light-green">
 			    <nav id="main-nav" class="nav nav-tabs">
 				    <?php wp_nav_menu( array(
 						    'menu'              => 'primary',
@@ -28,7 +28,7 @@ Template Name: Home Page
 </div>
 <div class="content-wrapper" >
 	<div class="container">
-	    <section id="main" role="main" class="col-sm-12">
+	    <section id="main" role="main" class="col-xs-12">
 
 	        <?php while ( have_posts() ) : the_post(); ?>
 

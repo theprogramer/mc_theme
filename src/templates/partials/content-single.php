@@ -13,12 +13,12 @@
 
 	<div class="row">
 
-		<div class="entry col-sm-7">
+		<div class="entry col-xs-7">
 			<?php the_content(); ?>
 
 			<?php //get_template_part('templates/partials/inc', 'meta'); ?>
 		</div>
-		<div class="col-sm-5">
+		<div class="col-xs-5">
 			<?php $custom_fields = get_post_custom();?>
 			<?php if (isset($custom_fields['Email'])) : ?>
 				<span>Email:</span>&nbsp;<a href="mailto://<?php echo $custom_fields['Email'][0]; ?>"><?php echo $custom_fields['Email'][0]; ?></a>

@@ -54,7 +54,8 @@ input {
 }
 
 .container {
-	width: 750px;
+	max-width: none !important;
+	width: 750px !important;
 }
 
 .solid {
