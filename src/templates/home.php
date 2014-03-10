@@ -5,10 +5,10 @@ Template Name: Home Page
 ?>
 
 <?php get_header(); ?>
-<div class="wrapper solid light-green">
+<div id="navigator" class="wrapper solid light-green">
     <div class="container">
 	    <div class="row">
-		    <div class="col-xs-12 solid light-green">
+		    <divclass="col-xs-12 solid light-green">
 			    <nav id="main-nav" class="nav nav-tabs">
 				    <?php wp_nav_menu( array(
 						    'menu'              => 'primary',

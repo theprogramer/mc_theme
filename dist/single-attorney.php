@@ -2,9 +2,11 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-3 light-green">
-			<div id="sidebar">
-		        <?php get_sidebar(); ?>
+		<div class="col-xs-3" style="padding:0;">
+			<div id="left-menu" class="light-green">
+				<div id="sidebar">
+			        <?php get_sidebar(); ?>
+				</div>
 			</div>
 		</div>
 		<div class="col-xs-9 solid-white">

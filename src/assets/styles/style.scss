@@ -111,6 +111,13 @@ input {
 	width: 188px !important;
 }
 
+#navigator {
+	position: fixed;
+	z-index: 99999;
+	top: initial;
+	left: initial;
+}
+
 .nav-tabs {
 	border: none;
 }
@@ -232,6 +239,8 @@ input {
 #close {
 	margin: 0;
 	float: right;
+	position: relative;
+	left: 14px;
 }
 
 .zopim {
