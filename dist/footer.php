@@ -12,8 +12,8 @@
 							</div>
 						</div>
 						<div id="social" class="col-xs-2 solid">
-							<a href="https://www.facebook.com/martini.claro.3"><img id="facebook" src="<?php bloginfo('template_directory'); ?>//assets/images/facebook.png" /></a>
-							<a href="https://linkedin.com"><img id="linkedin" src="<?php bloginfo('template_directory'); ?>//assets/images/linkdin.png" /></a>
+							<a href="https://www.facebook.com/martini.claro.3" target="_blank"><img id="facebook" src="<?php bloginfo('template_directory'); ?>//assets/images/facebook.png" /></a>
+							<a href="https://linkedin.com" target="_blank"><img id="linkedin" src="<?php bloginfo('template_directory'); ?>//assets/images/linkdin.png" /></a>
 						</div>
 					</div>
 				</footer>
